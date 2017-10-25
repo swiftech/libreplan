@@ -1612,7 +1612,7 @@ msgstr "定义的时间后，自去年节能运行，在项目规划的角度提
 #: libreplan-webapp/src/main/webapp/orders/_orderElementTreeFilter.zul:42
 #: libreplan-webapp/src/main/webapp/orders/_orderFilter.zul:29
 msgid "to"
-msgstr "对"
+msgstr "至"
 
 #: libreplan-business/src/main/java/org/libreplan/business/workreports/entities/WorkReportLine.java:567
 msgid ""
@@ -2368,7 +2368,7 @@ msgstr "反复小时组代码{0}项目{1}"
 
 #: libreplan-webapp/src/main/webapp/orders/_listOrderElementCriterionRequirements.zul:144
 msgid "Hours group"
-msgstr "h组"
+msgstr "小时组"
 
 #: libreplan-webapp/src/main/webapp/templates/_editTemplate.zul:72
 #: libreplan-webapp/src/main/webapp/templates/_listTemplates.zul:29
@@ -2890,7 +2890,7 @@ msgstr "工作人员名单"
 #: libreplan-webapp/src/main/java/org/libreplan/web/orders/CriterionRequirementWrapper.java:48
 #: libreplan-webapp/src/main/webapp/calendars/_edition.zul:229
 msgid "Inherited"
-msgstr "遗传"
+msgstr "继承"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/limitingresources/LimitingResourcesController.java:519
 #: libreplan-webapp/src/main/java/org/libreplan/web/limitingresources/LimitingResourcesController.java:597
@@ -3006,7 +3006,7 @@ msgstr "其他项目"
 
 #: libreplan-business/src/main/java/org/libreplan/business/workreports/entities/WorkReportLine.java:264
 msgid "clock finish cannot be empty if number of hours is calcultate by clock"
-msgstr "如果不能为空的小时数calcultate的时钟时钟完成"
+msgstr "如果小时数是由时钟计算所得则时钟不能为空"
 
 #: libreplan-webapp/src/main/webapp/limitingresources/limitingResourcesLayout.zul:117
 msgid "Tasks input buffer"
@@ -3062,7 +3062,7 @@ msgstr "总容量"
 
 #: libreplan-webapp/src/main/webapp/common/configuration.zul:281
 msgid "Use LDAP roles"
-msgstr "使用LDAP的角色"
+msgstr "使用LDAP角色"
 
 #: libreplan-webapp/src/main/webapp/orders/_editOrderElement.zul:44
 msgid "Details"
@@ -3093,7 +3093,7 @@ msgstr "工程量"
 
 #: libreplan-webapp/src/main/webapp/calendars/_edition.zul:250
 msgid "Parent"
-msgstr "亲"
+msgstr "父"
 
 #: libreplan-webapp/src/main/webapp/limitingresources/manualAllocation.zul:91
 msgid "Earliest date"
@@ -5336,7 +5336,7 @@ msgstr "不能高于光洁度小时"
 #: libreplan-webapp/src/main/webapp/common/configuration.zul:241
 #: libreplan-webapp/src/main/webapp/common/configuration.zul:260
 msgid "Prefix"
-msgstr "字首"
+msgstr "前缀"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/users/dashboard/PersonalTimesheetDTO.java:123
 msgid "{0} 1st fortnight"
@@ -6320,7 +6320,7 @@ msgstr "未指定的位数数"
 
 #: libreplan-business/src/main/java/org/libreplan/business/workreports/entities/WorkReport.java:250
 msgid "task cannot be empty if it is shared by lines"
-msgstr "任务不能是空的，如果它是共享的线"
+msgstr "任务不能是空的，如果它是产线共享"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/planner/TaskElementAdapter.java:843
 msgid "All workers"
@@ -6369,11 +6369,11 @@ msgstr "单位类型"
 
 #: libreplan-webapp/src/main/webapp/planner/_legendLoadChartOrder.zul:42
 msgid "Load due to other assignments"
-msgstr "载入由于其他任务"
+msgstr "由于其他任务载入"
 
 #: libreplan-webapp/src/main/java/org/libreplan/web/common/CustomMenuController.java:515
 msgid "Personal area"
-msgstr "个人区域"
+msgstr "个人"
 
 #: libreplan-webapp/src/main/webapp/calendars/_edition.zul:26
 msgid "Calendar data"
@@ -6389,11 +6389,11 @@ msgstr "目前的状态指示灯"
 
 #: libreplan-business/src/main/java/org/libreplan/business/common/IntegrationEntity.java:109
 msgid "code is already used"
-msgstr "已经使用的代码"
+msgstr "代码已使用"
 
 #: libreplan-webapp/src/main/webapp/subcontract/subcontractorCommunications.zul:20
 msgid "LibrePlan: Received From Subcontractors"
-msgstr "LibrePlan：收稿从分包商"
+msgstr "LibrePlan：从分包商接收"
 
 #: libreplan-webapp/src/main/webapp/labels/_editLabelType.zul:67
 msgid "Labels list"
@@ -6444,7 +6444,7 @@ msgstr "客户参考"
 
 #: libreplan-webapp/src/main/webapp/dashboard/_dashboardfororder.zul:88
 msgid "Overtime ratio"
-msgstr "加班比"
+msgstr "加班比例"
 
 #: libreplan-webapp/src/main/webapp/orders/components/_listOrderElementLabels.zul:89
 msgid "Create and assign label"
@@ -8212,7 +8212,7 @@ msgstr "插值"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/AssignmentFunction.java:80
 msgid "Sigmoid"
-msgstr "乙状结肠"
+msgstr "S形"
 
 #: libreplan-business/src/main/java/org/libreplan/business/planner/entities/SubcontractState.java:32
 msgid "Pending initial send"
@@ -8440,7 +8440,7 @@ msgstr "机"
 
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/OrderStatusEnum.java:33
 msgid "PRE-SALES"
-msgstr "PRE-SALES"
+msgstr "售前"
 
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/OrderStatusEnum.java:34
 msgid "OFFERED"
@@ -8464,7 +8464,7 @@ msgstr "ON HOLD"
 
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/OrderStatusEnum.java:39
 msgid "FINISHED"
-msgstr "FINISHED"
+msgstr "完成"
 
 #: libreplan-business/src/main/java/org/libreplan/business/orders/entities/OrderStatusEnum.java:40
 msgid "CANCELLED"
